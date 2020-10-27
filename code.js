@@ -1,1 +1,3 @@
-alert("Hello\nHow are you?");
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Game Started";
+}
