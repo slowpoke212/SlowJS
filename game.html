@@ -2,15 +2,13 @@
 <html>
 <body>
 
-<h2>External JavaScript</h2>
+<h2>JavaScript in Body</h2>
 
-<p id="demo">A Paragraph.</p>
+<p id="demo"></p>
 
-<button type="button" onclick="myFunction()">Try it</button>
-
-<p>(myFunction is stored in an external file called "myScript.js")</p>
-
-<script src="code.js"></script>
+<script>
+document.getElementById("demo").innerHTML = "My First JavaScript";
+</script>
 
 </body>
-</html>
+</html> 
