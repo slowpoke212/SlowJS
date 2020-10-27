@@ -14,4 +14,12 @@ function mobsf(){
   document.getElementById("demo").innerHTML = "A " + mob1 + " apeared";
   level += 1
   document.getElementById("level").innerHTML = level;	
+  if (mob1 == "slime") {
+    setTimeout(slime(), 3000)
+  }
+
+
+function slime(){
+    document.getElementById("demo").innerHTML = "The slime attacks!";
+  }
 }
